@@ -32,16 +32,16 @@ public class HelloWorld {
   Y=tmp;
   System.out.println(" X : "+ X +" Y :"+ Y +"");*/
     /* Exo 1 tp2 */
-    Scanner sc= new Scanner(System.in);
-    int erreur =0;
+    Scanner sc = new Scanner(System.in);
+   
             System.out.print("Saisir le mot de passe :");
-            String mdp = sc.nextLine();
-            while ( erreur == 1);{
-            if(mdp.equals("admin123")){
-                System.out.println("Bienvenue !");}
-            else{
-                System.out.println("Saisir le mot de passe :");
-                 
+            String texte = sc.nextLine();
+            
+             String mdp = "admin123";
+             while (!texte.equals(mdp))
+            {
+               System.out.print("Saisir mot de passe :");
+               texte = sc.nextLine();
             }
     }
    
