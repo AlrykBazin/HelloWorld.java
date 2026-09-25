@@ -14,10 +14,10 @@ public class HelloWorld {
     /**
      * @param args the command line arguments
      */
-    /*public static void main(String[] args) {
-          System.out.println("Hello World by MB on GH");*/
+    public static void main(String[] args) {
+          /*System.out.println("Hello World by MB on GH");*/
 /*Exo 4*/
-     Scanner sc = new Scanner(System.in);
+     /*Scanner sc = new Scanner(System.in);
         int X = 0;
         int Y = 0;
         int tmp = 0;
@@ -30,7 +30,21 @@ public class HelloWorld {
   tmp = X;
   X=Y;
   Y=tmp;
-  System.out.println(" X : "+ X +" Y :"+ Y +"");
+  System.out.println(" X : "+ X +" Y :"+ Y +"");*/
+    /* Exo 1 tp2 */
+    Scanner sc= new Scanner(System.in);
+    int erreur =0;
+            System.out.print("Saisir le mot de passe :");
+            String mdp = sc.nextLine();
+            while ( erreur == 1);{
+            if(mdp.equals("admin123")){
+                System.out.println("Bienvenue !");}
+            else{
+                System.out.println("Saisir le mot de passe :");
+                 
+            }
+    }
+   
     }
     
 }
